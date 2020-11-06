@@ -244,6 +244,7 @@ export default {
               display: inline-block;
               height: 220px;
               opacity: 1;
+              background-color: #ffffff;
             }
           }
           .children {

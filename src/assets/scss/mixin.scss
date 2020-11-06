@@ -1,7 +1,7 @@
-@mixin flex($hov: space-between, $col: center) {
+@mixin flex($h: space-between, $v: center) {
   display: flex;
-  justify-content: $hov;
-  align-items: $col;
+  justify-content: $h;
+  align-items: $v;
 }
 
 @mixin bgImg($w: 0, $h: 0, $img: "", $size: contain) {
