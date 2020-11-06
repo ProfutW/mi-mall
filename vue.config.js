@@ -4,7 +4,7 @@ module.exports = {
     port: 8080,
     proxy: {
       "/api": {
-        target: "https://cn.vuejs.org/v2",
+        target: "https://mall-pre.springboot.cn",
         changeOrigin: true,
         pathRewrite: {
           "^/api": "",
