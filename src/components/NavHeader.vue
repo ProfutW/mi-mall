@@ -228,6 +228,7 @@ export default {
         display: inline-block;
         width: 643px;
         padding-left: 209px;
+        z-index: 10;
         .item-menu {
           display: inline-block;
           margin-right: 20px;
